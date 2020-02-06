@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; 
 import TextSelector from './TextSelector.js';
+import ColorSelector from './ColorSelector.js';
 
 export default class NameTag extends Component {
 
@@ -13,7 +14,7 @@ export default class NameTag extends Component {
       return (
         <>
           <TextSelector/>
-          {/* <ColorSelector/> */}
+          <ColorSelector/>
         </>
       );
     }
